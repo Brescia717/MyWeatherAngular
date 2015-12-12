@@ -1,0 +1,23 @@
+{
+  "name": "Starter",
+  "authors": [
+    "Paul Brescia <brescia717@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.14.3",
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13"
+  }
+}

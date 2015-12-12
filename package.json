@@ -1,0 +1,20 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7"
+  },
+  "dependencies": {},
+  "description": ""
+}
