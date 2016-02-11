@@ -20,7 +20,7 @@ weatherApp.controller('forecastController', ['$scope', '$routeParams', 'cityServ
 
     $scope.days = $routeParams.days || '2';
 
-    $scope.apiKey = '2de143494c0b295cca9337e1e96b00e0';
+    $scope.apiKey = '486a06c274143751f4c5b854f7f256c9';
 
     $scope.weatherResult = weatherService.GetWeather($scope.city, $scope.days, $scope.apiKey);
 
